@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "swagger": "tsx ./src/utils/http/swagger-http-client/tipster-backend-client/generate.ts"
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "^1.18.0",
+    "axios": "^1.13.2",
+    "lucide-react": "^0.562.0",
+    "next": "latest",
+    "radix-ui": "^1.4.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vanilla-extract/css": "^1.11.0",
+    "@vanilla-extract/next-plugin": "^2.4.17",
+    "babel-plugin-react-compiler": "1.0.0",
+    "typescript": "^5"
+  }
+}
