@@ -18,7 +18,7 @@ async function FixtureContent({ params }: { params: Promise<{ id: string }> }) {
 
 export default async function PageRevalidateTest({ params }: PageProps) {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Loading...eee</div>}>
       <FixtureContent params={params} />
     </Suspense>
   );
